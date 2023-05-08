@@ -1,6 +1,6 @@
 /* Scroll Reveal; */
 
-window.sr = ScrollReveal({ reset: true });
+window.sr = ScrollReveal({ reset: false });
 
 sr.reveal("p", {
   rotate: { x: 5, y: 20, z: 0 },
