@@ -189,6 +189,30 @@ li {
   opacity: 0.8;
 }
 
+#featured-images .col-md-4:hover > .banner-title {
+  opacity: 1;
+  z-index: 1;
+  color: #000;
+  text-align: center;
+
+   top: 25%;
+   right:55%;
+}
+
+#featured-images .banner-title {
+  position: absolute;
+  top: 80%;
+  right: 50%;
+  transform: translateX(55%);
+  border-radius: 10px;
+  text-decoration: underline;
+
+  color: #fff;
+  min-width: 290px;
+  font-style: italic;
+  font-size: 25px;
+  text-align: center;
+}
 #featured-images .banner-content {
   position: absolute;
   top: 0;
@@ -202,23 +226,6 @@ li {
   flex-direction: column;
   opacity: 0;
   transition: 0.5s;
-}
-
-.container-esgotado {
-  background-color: #7a7a7a;
-  position: relative;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 1;
-}
-
-.text-esgotado {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 2;
 }
 
 .paragraph {
